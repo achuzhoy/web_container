@@ -1,1 +1,1 @@
-print("hello world")
+nisim=raw_input("hello world")
