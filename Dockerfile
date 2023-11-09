@@ -6,6 +6,6 @@ chgrp -R 0 /var/www/html && \
 mkdir /sashatest && \
 chmod g=u -R /var/www/html
 EXPOSE 8080
-USER 1001
+USER root
 
 CMD ["/usr/sbin/httpd","-DFOREGROUND"]
